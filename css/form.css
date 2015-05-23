@@ -1,0 +1,58 @@
+body
+{
+ background-color:#339966; /* fondo de la pagina */
+}
+
+.normal
+{
+  text-align: center; /* titulo centrado */
+  width: 600px;     /* tamaño de la tabla */
+  border: 2px solid #000;  /* borde de la tabla */
+  border-radius: 10px;  /* borde redondeado de la tabla */
+  background-color: white; /* color de fondo de la tabla */
+  border-color: white; /* color del borde de la tabla */
+  box-shadow: inset 0px 0px 30px #E6E8FA, 10px 10px 20px #4F2F4F; 
+}
+
+.normal th
+{
+ border: 2px solid #000;
+ border-radius: 10px 10px 0 0;
+ background-color: #e1e1e1;
+ font-family: "Swis721 BdOul BT";
+ font-size: 30px;
+}
+
+.normal tr, .normal td
+ {
+  border: 2px solid #000;
+  font-family: "Microsoft PhagsPa";
+  font-size:10px;
+
+ }
+.nombre
+{
+	width: 550px;
+}
+.comentario
+{
+	width: 550px;
+	height: 100px;
+}
+.guardar
+{
+	width: 550px;
+	background-color: #e1e1e1;
+	border-radius: 10px;
+	border-color:blue;
+
+}
+.comhecho
+{
+	text-align: justify;
+	font-size: 20;
+}
+h1
+{
+	text-align: left;
+}
