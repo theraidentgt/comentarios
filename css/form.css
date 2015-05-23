@@ -12,21 +12,22 @@ body
   background-color: white; /* color de fondo de la tabla */
   border-color: white; /* color del borde de la tabla */
   box-shadow: inset 0px 0px 30px #E6E8FA, 10px 10px 20px #4F2F4F; 
+  /*background-image: url('../img/shot.png');*/
 }
 
 .normal th
 {
  border: 2px solid #000;
  border-radius: 10px 10px 0 0;
- background-color: #e1e1e1;
- font-family: "Swis721 BdOul BT";
+ background-color: #E23F3F;
+ font-family: "Lucida Handwriting";
  font-size: 30px;
 }
 
 .normal tr, .normal td
  {
   border: 2px solid #000;
-  font-family: "Microsoft PhagsPa";
+  font-family: "Lucida Sans";
   font-size:10px;
 
  }
@@ -38,14 +39,13 @@ body
 {
 	width: 550px;
 	height: 100px;
+
 }
 .guardar
 {
 	width: 550px;
-	background-color: #e1e1e1;
 	border-radius: 10px;
-	border-color:blue;
-
+	
 }
 .comhecho
 {
@@ -53,6 +53,10 @@ body
 	font-size: 20;
 }
 h1
+{
+	text-align: left;
+}
+.gusta
 {
 	text-align: left;
 }
